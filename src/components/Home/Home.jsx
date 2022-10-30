@@ -8,12 +8,12 @@ const Home = () => {
         <img src={Favour} id="profile_img" alt="" />
       </div>
 
-      <h3 id="twitter"> Favour Timothy </h3>
+      <h1 id="name"> Favour Timothy </h1>
       <h2 id="slack"> favourkcb</h2>
 
       <div className="links">
         <a href="twitter.com/shunnode" id="twitter" role='button'><h2 className="link-text"> Twitter Link </h2></a>
-        
+
         <a  href="https://training.zuri.team/" id="btn_zuri" role="button">
           {" "}
           <div className="link-text">
