@@ -9,7 +9,7 @@ const Home = () => {
       </div>
 
       <h1 id="twitter"> Shunnode </h1>
-      <h2 id="slack">  S H U N </h2>
+      <h2 id="slack">  Shun </h2>
 
       <div className="links">
         <a href="twitter.com/shunnode" className="twitter" role='button'>
@@ -26,7 +26,7 @@ const Home = () => {
         </a>
 
         <a title="Python books broken down to your level of understanding"
-          href="https://https://books.zuri.team/python-for-beginners?ref_id=S-H-U-N"
+          href="https://https://books.zuri.team/python-for-beginners?ref_id=Shun"
           id="book__python"
           role="button"
         >
