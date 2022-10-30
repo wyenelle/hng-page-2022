@@ -1,0 +1,16 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-top: 7em;
+
+}
+ @media screen and  (min-width : 650px){
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 4rem;
+        padding: 10px;
+        height: 10vh;
+    }
+} 

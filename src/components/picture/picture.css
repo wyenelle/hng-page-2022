@@ -1,0 +1,13 @@
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+}
+#slack-img{
+    height: 30px;
+    width: 30px;
+}
+#github{
+    height: 30px;
+    width: 30px;
+}
