@@ -4,49 +4,41 @@ import "./Home.css";
 const Home = () => {
   return (
     <main>
-      <div className="profile_img">
+      <div className="profile__img">
         <img src={Favour} id="profile_img" alt="" />
       </div>
 
-      <h1 id="name"> Favour Timothy </h1>
-      <h2 id="slack"> favourkcb</h2>
+      <h1 id="twitter"> Shunnode </h1>
+      <h2 id="slack">  S H U N </h2>
 
       <div className="links">
-        <a href="twitter.com/shunnode" id="twitter" role='button'><h2 className="link-text"> Twitter Link </h2></a>
+        <a href="twitter.com/shunnode" className="twitter" role='button'>
+          Twitter Link
+        </a>
 
-        <a  href="https://training.zuri.team/" id="btn_zuri" role="button">
-          {" "}
-          <div className="link-text">
-            <h2> Zuri Team</h2></div>{" "}
+        <a  href="https://training.zuri.team/" id="btn__zuri" role="button">
+           Zuri Team
           
         </a>
 
         <a id="books" href="https://books.zuri.team" title="follow this link to resource for design and coding" role="button">
-          <div className="link-text">
-          <h2>Zuri books</h2>
-          
-          </div>
+          Zuri Books
         </a>
 
         <a title="Python books broken down to your level of understanding"
-          href="https://https://books.zuri.team/python-for-beginners?ref_id=s-h-u-n"
-          id="book_python"
+          href="https://https://books.zuri.team/python-for-beginners?ref_id=S-H-U-N"
+          id="book__python"
           role="button"
         >
-          {" "}
-          <div className="link-text"> <h2>Python Books</h2></div>
+          Python books
         </a>
 
         <a href="https://background.zuri.team" id="pitch" role="button" title=" checkr">
-          {" "}
-         <div className="link-text"> <h2>Background Check for coders</h2></div>
+        Background Check For Coders
         </a>
 
-        <a href="href://books.zuri.team/design-rules" id="book_design" title=" this is the best design book around for now">
-          <div className="link-text">
-          <h2>Design Books</h2>
-         
-          </div>
+        <a href="href://books.zuri.team/design-rules" id="book__design" title=" this is the best design book around for now">
+          Design Books
         </a>
       </div>
     </main>
