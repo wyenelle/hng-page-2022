@@ -8,20 +8,21 @@ const Home = () => {
         <img src={Favour} id="profile_img" alt="" />
       </div>
 
-      <h3 id="twitter"> @shunnode </h3>
+      <h3 id="twitter"> Favour Timothy </h3>
       <h2 id="slack"> favourkcb</h2>
 
       <div className="links">
-        <a className="button" href="https://training.zuri.team/" id="btn_zuri" role="button">
+        <a href="twitter.com/shunnode" id="twitter" role='button'><h2 className="link-text"> Twitter Link </h2></a>
+        <a  href="https://training.zuri.team/" id="btn_zuri" role="button">
           {" "}
           <div className="link-text">
-            <h2> Zuri</h2></div>{" "}
+            <h2> Zuri Team</h2></div>{" "}
           
         </a>
 
         <a id="books" href="https://books.zuri.team" role="button">
           <div className="link-text">
-          <h2> books</h2>
+          <h2>Zuri books</h2>
           <p> follow this link to resource for design and coding </p>
           </div>
         </a>
@@ -32,17 +33,17 @@ const Home = () => {
           role="button"
         >
           {" "}
-          <div className="link-text"> <h2>Python Book</h2></div>
+          <div className="link-text"> <h2>Python Books</h2></div>
         </a>
 
         <a href="https://background.zuri.team" id="pitch" role="button">
           {" "}
-         <div className="link-text"> <h2>background</h2></div>
+         <div className="link-text"> <h2>Background Check for coders</h2></div>
         </a>
 
         <a href="href://books.zuri.team/design-rules">
           <div className="link-text">
-          <h2>Design Rules</h2>
+          <h2>Design Books</h2>
           <p>
             {" "}
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione,

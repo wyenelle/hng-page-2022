@@ -1,8 +1,8 @@
 .footer{
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   margin-top: 7em;
+  text-align: center;
 
 }
  @media screen and  (min-width : 650px){
@@ -10,7 +10,36 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 4rem;
-        padding: 10px;
+        border-top: 1px solid lightgray;
         height: 10vh;
     }
+
+    .first{
+        display: flex;
+        justify-content: space-around;
+        gap: 14em;
+    }
 } 
+.first{
+    text-align: start;
+    padding: 10px;
+}
+.first p{
+    color: gray;
+}
+.second{
+    display: flex;
+
+}
+#i4g{
+    width: 35px;
+    height: 35px;
+    margin-top: 1.5em;
+}
+.ing{
+    width: 120px;
+    text-align: start;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 900;
+}
