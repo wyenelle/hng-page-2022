@@ -8,11 +8,11 @@ const Home = () => {
         <img src={Favour} id="profile_img" alt="" />
       </div>
 
-      <h1 id="twitter"> Shunnode </h1>
+      <h1 id="twitter-name"> Shunnode </h1>
       <h2 id="slack">  Shun </h2>
 
       <div className="links">
-        <a href="twitter.com/shunnode" className="twitter" role='button'>
+        <a href="twitter.com/shunnode" id="twitter" role='button'>
           Twitter Link
         </a>
 
