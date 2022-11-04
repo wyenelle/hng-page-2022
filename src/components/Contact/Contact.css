@@ -1,0 +1,111 @@
+.section-form{
+    background-color: #f2f2f2;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 2em;
+
+}
+.form-section{
+    background-color: white;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px 2px lightgray;
+    border-radius: 10px;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+header{
+    margin-top: 1em;
+    margin-bottom: 2em;
+
+}
+header h1{
+    font-size: 30px;
+    font-weight: 550;
+}
+header p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+.form-control div{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    margin-bottom: 1em ;
+    justify-content: center;
+}
+.form-control div input{
+    height: 35px;
+    border: 2px solid lightgray;
+    border-radius: 7px ;
+    padding: 5px;
+    outline: none;
+}
+@media screen and (min-width : 650px){
+    .section-form{
+        background-color: white;
+    }
+    .form-section{
+        width: 95%;
+        margin: auto;
+    }
+    .form-control{
+        display: flex;
+        justify-content: space-between;
+        gap: 2em;
+    }
+    .form-control div{
+        width: 50%;
+    }
+}
+label{
+    font-size: 15px;
+    margin-bottom:7px;
+}
+.email-control{
+    display: flex;
+    flex-direction: column;
+
+}
+.email-control input{
+    height: 40px;
+    border: 2px solid lightgray;
+    border-radius: 7px;
+    outline: none;
+}
+
+.message-control{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.message-control #message{
+    height: 90px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    margin-bottom: 2em;
+}
+.checkbox-control{
+    display: flex;
+    gap: 0.5em;
+    margin-bottom: 2em;
+}
+.checkbox-control input{
+    outline: none;
+
+}
+#btn__submit{
+    background-color: blue;
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 2em;
+}

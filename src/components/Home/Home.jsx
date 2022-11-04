@@ -1,3 +1,4 @@
+import Logo from "../picture/picture";
 import Favour from "./favour.jpg";
 import "./Home.css";
 
@@ -40,7 +41,12 @@ const Home = () => {
         <a href="href://books.zuri.team/design-rules" id="book__design" title=" this is the best design book around for now">
           Design Books
         </a>
-      </div>
+
+        <a id="contact" href="/contact">
+          Contact Me
+        </a>
+      </div> <br/><br/>
+      <Logo />
     </main>
   );
 };

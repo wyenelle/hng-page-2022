@@ -1,17 +1,16 @@
 import "./App.css";
 import Footer from "./components/footer/Footer";
 import Home from "./components/Home/Home";
-import Logo from "./components/picture/picture";
+import {Routes,Route} from 'react-router-dom'
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
     <div className="App">
-      
-      <div className="App-sec">
-        <Home />
-        <Logo />
-      </div>
-
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
     </div>
   );
