@@ -16,8 +16,8 @@
 
     .first{
         display: flex;
-        justify-content: space-around;
-        gap: 15em;
+        justify-content: space-between;
+        gap: 22em;
     }
 } 
 .first{
